@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "kited",
+  "version": "1.0",
+  "description": "Automation for ed.ac.uk",
+  "content_scripts": [
+    {
+      "matches": ["*://www.learn.ed.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_61_1"],
+      "js": ["src/learn/redirect.js"]
+    },
+    {
+      "matches": ["*://www.myed.ed.ac.uk/myed-progressive/*"],
+      "js": ["src/myed/redirect.js"]
+    },
+    {
+      "matches": ["*://www.ease.ed.ac.uk/*"],
+      "js": ["src/login.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "src/options.html",
+    "browser_style": true,
+    "chrome_style": true
+  },
+  "permissions": [
+    "*://*.ed.ac.uk/*",
+    "storage"
+  ]
+}
