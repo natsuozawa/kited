@@ -22,5 +22,5 @@ if (location.pathname === "/cosign.cgi") {
  */
 
 if (location.pathname === "/login/") {
-  document.getElementById("submit").click();
+  setTimeout(() => document.getElementById("submit").click(), 300);
 }
