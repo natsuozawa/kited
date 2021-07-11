@@ -9,6 +9,8 @@ if (location.pathname === "/cosign.cgi") {
     if (res.username) {
       document.getElementById("login").value = res.username;
       document.getElementById("submit").click();
+    } else {
+      alert("[kited] Please save your UUN in the extension options.");
     }
   });
 }
