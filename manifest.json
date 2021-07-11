@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "kited",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automation for ed.ac.uk",
   "content_scripts": [
     {

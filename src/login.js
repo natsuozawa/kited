@@ -5,9 +5,7 @@
  */
 
 if (location.pathname === "/cosign.cgi") {
-  const username = browser.storage.local.get("username");
-
-  username.then(res => {
+  chrome.storage.local.get("username", res => {
     if (res.username) {
       document.getElementById("login").value = res.username;
       document.getElementById("submit").click();

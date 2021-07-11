@@ -6,8 +6,14 @@ Automation toolkit for using the University of Edinburgh's websites.
 
 ## Firefox
 
-Download the xpi file in the repository.
+Download the xpi file in the repository. (Signed by Mozilla)
 
 ## Chrome
 
 Coming soon.
+
+# Build
+
+```
+$ ./package.sh
+```
