@@ -26,6 +26,7 @@ This feature does not tamper with ed.ac.uk cookies. Therefore, it still takes ab
 
 * www.learn.ed.ac.uk
 * www.myed.ed.ac.uk
+* www.wiki.ed.ac.uk
 
 # Build
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "kited",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Automation for ed.ac.uk",
   "author": "Natsu Ozawa",
   "content_scripts": [
@@ -16,6 +16,10 @@
     {
       "matches": ["*://www.ease.ed.ac.uk/*"],
       "js": ["src/login.js"]
+    },
+    {
+      "matches": ["*://www.wiki.ed.ac.uk/*"],
+      "js": ["src/wiki/redirect.js"]
     }
   ],
   "options_ui": {
