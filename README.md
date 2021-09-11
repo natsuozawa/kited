@@ -6,7 +6,7 @@ Automation toolkit for using the University of Edinburgh's websites.
 
 ## Firefox
 
-Download the xpi file in the repository. (Signed by Mozilla)
+Download the xpi file [here](https://kited.natsuozawa.com/kited.xpi). (Signed by Mozilla)
 
 ## Chrome
 
@@ -32,4 +32,10 @@ This feature does not tamper with ed.ac.uk cookies. Therefore, it still takes ab
 
 ```
 $ ./package.sh
+```
+
+# Update xpi file
+
+```
+$ cp kited-1.0.[version number]-fx.xpi docs/kited.xpi
 ```
